@@ -1,0 +1,8 @@
+{
+  "name": "Lavender Park Beauty Parlour",
+  "description": "Professional bridal makeup, hair styling, facials, nail art, and beauty academy website for Lavender Park Beauty Parlour.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

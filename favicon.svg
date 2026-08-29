@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="lavenderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#845EC2" />
+      <stop offset="50%" stop-color="#B57EDC" />
+      <stop offset="100%" stop-color="#D65DB1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFAA00" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle with smooth gradient -->
+  <circle cx="50" cy="50" r="48" fill="url(#lavenderGrad)" />
+  <circle cx="50" cy="50" r="46" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" />
+  
+  <!-- Stylized Lotus / Lavender Floral Petals -->
+  <g transform="translate(50, 52) scale(0.72)">
+    <!-- Center petal -->
+    <path d="M0,-42 C12,-20 16,5 0,22 C-16,5 -12,-20 0,-42 Z" fill="#FFFFFF" opacity="0.95" />
+    <!-- Left petal -->
+    <path d="M-2,-30 C-22,-14 -32,10 -14,24 C-4,14 4,-4 -2,-30 Z" fill="#FFFFFF" opacity="0.85" />
+    <!-- Right petal -->
+    <path d="M2,-30 C22,-14 32,10 14,24 C4,14 -4,-4 2,-30 Z" fill="#FFFFFF" opacity="0.85" />
+    <!-- Outer left flourish -->
+    <path d="M-10,-12 C-38,-4 -44,22 -26,30 C-18,20 -10,8 -10,-12 Z" fill="#FBEAFF" opacity="0.75" />
+    <!-- Outer right flourish -->
+    <path d="M10,-12 C38,-4 44,22 26,30 C18,20 10,8 10,-12 Z" fill="#FBEAFF" opacity="0.75" />
+    <!-- Golden Core Sparkle -->
+    <circle cx="0" cy="8" r="4.5" fill="url(#goldGrad)" />
+  </g>
+</svg>
